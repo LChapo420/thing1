@@ -1,0 +1,182 @@
+Act as an elite educational game designer, cognitive learning scientist, and senior frontend UI/UX engineer. Generate a complete, self-contained, single-file interactive educational web app (HTML5, embedded CSS, vanilla JS) that balances rigorous, comprehensive instruction with active simulation gameplay.
+
+==================================================
+LESSON INPUT CONFIGURATION (MODIFY PER RUN):
+- SUBJECT: [Insert Subject, e.g., English, Science, Mathematics, History]
+- TOPIC NAME: [Insert Specific Topic Name]
+- TOPIC GENERALIZATION: [Insert 1-2 sentence core scope, objectives, and curricular boundaries]
+- TARGET GRADE LEVEL: [Insert Grade Band, e.g., Grade 5-6, Grade 9-10, Grade 11-12]
+- TARGET AVERAGE AGE: [Insert Target Age Range, e.g., Ages 10-13, Ages 14-16, Ages 16-20]
+- LEVEL NUMBER: [Insert Integer Level Number, e.g., 1, 13, 82]
+- LESSON SEQUENCE NUMBER: [Insert Chronological Integer: 1, 2, 3, etc.]
+- PREVIOUS LESSONS: [Insert Prerequisites or "None / Foundational"]
+- FUTURE LESSONS: [Insert Upcoming Target Concepts to bridge toward]
+==================================================
+
+CORE UI/UX PARADIGM: PROGRESSIVE DISCLOSURE & COGNITIVE BREATHING ROOM
+- COGNITIVE LOAD MITIGATION: Avoid "visual sensory assault". Never dump multiple high-density modules onto the screen simultaneously. Use clean vertical rhythm, ample white/negative space (minimum 32px to 48px section padding), and focused visual hierarchies.
+- PROGRESSIVE DISCLOSURE (CARD ACCORDIONS & ACTIVE MODES):
+  * Dense instructional breakdowns (Toulmin elements, the 4 hazard pods, worked examples) must use clean, expandable tab strips or sleek card toggles with smooth CSS transitions (`max-height`, `opacity`).
+  * Only one complex interactive inspection state should be active at a time to keep user focus razor-sharp.
+- LESSON-FIRST ANCHORING: The page must begin with foundational instruction before launching simulations. The student reads crisp, textbook-grade principles, reviews worked models, and then enters the tactile workbench.
+- CRITICAL SUBJECT VS. THEME DECOUPLING: 100% of academic text, definitions, worked examples, hazard breakdowns, and reading passages MUST strictly belong to the specified SUBJECT and TOPIC NAME. The theme and game engine provide cosmetic styling, thematic metaphors, and mechanical UI affordances—they must NEVER hijack the academic curriculum.
+
+THE 20 DETERMINISTIC SIGNATURE GAME ENGINES, PALETTES & STREAMLINED LAYOUTS:
+Calculate the variant using: Variant Index = ((LESSON SEQUENCE NUMBER - 1) % 20) + 1.
+The app MUST implement the exact physical game engine, unique palette, and focused workbench layout corresponding to that index in Section 03:
+
+1. Orbital Station & RCS Balancer | Deep Starlight (#050714), Hull Slate (#13192B), Plasma Blue (#38BDF8), Solar Gold (#FBBF24)
+   GAME ENGINE: Dual-arm balance scale. Dock foundational inputs on the left arm and claims on the right; unsupported outputs trigger an alert-red "Torque Fracture" until a qualifying damper is engaged.
+   LAYOUT: Focused balance display centered above a clean 2-card docking selector and telemetry badge.
+
+2. Deep Ocean Trench & Submersible Rig | Abyssal Obsidian (#020617), Pressure Steel (#0F172A), Bioluminescent Emerald (#10B981), Warning Amber (#F59E0B)
+   GAME ENGINE: Stone archway spanning an abyss with an empty keystone slot. Squeezing hydraulic clamps with a circular link shatters the arch; inserting a valid structural bridge locks the keystone in place under load.
+   LAYOUT: Centered arch viewport flanked cleanly by pressure indicators and dual clamping levers.
+
+3. Cyberpunk Netrunner & Neon Terminal | Carbon Black (#09090B), Circuit Plate (#18181B), Laser Magenta (#F43F5E), Synth Cyan (#06B6D4)
+   GAME ENGINE: Vertical 10,000 PSI piston compressing stacked layers [Core Outcome / Connecting Mechanism / Foundation Data]. Compressing on an unstated causal leap ruptures seals; verified grounds hold rigid under full tonnage.
+   LAYOUT: Clean 3-layer vertical modular stack with single-click slide controls and a live compression meter.
+
+4. Antique Clockmaker Workshop | Cast Iron (#18181B), Patina Timber (#27272A), Burnished Brass (#FDE047), Antique Bronze (#D97706)
+   GAME ENGINE: 4-bay steel truss bridge spanning a canyon with a missing structural cross-member. Rolling a test train across a bridge with an unverified assumption buckles the track; pinning a sound warrant allows safe crossing.
+   LAYOUT: Minimalist horizontal bridge rail over a tidy 3-choice truss pin drawer.
+
+5. Volcanic Geothermal Core | Basalt Charcoal (#1C1917), Volcanic Ash (#292524), Molten Orange (#EA580C), Magma Yellow (#FACC15)
+   GAME ENGINE: Deep geological cross-section. Driving pilings into surface sand (shallow data) triggers seismic facade cracking; anchoring into deep granite bedrock (empirical data) secures the tower.
+   LAYOUT: 2-column split: left cross-sectional depth strata linked to a right pneumatic drill activator.
+
+6. Cleanroom Bio-Research Facility | Slate Charcoal (#0F172A), Lab White/Glass (#1E293B), Sterile Mint (#34D399), Alert Crimson (#EF4444)
+   GAME ENGINE: Heavy circular vault door with 3 radial locking bolts [Primary Grounds, Scope Parameter, Connecting Bridge]. Testing bolts with a digital torque wrench snaps ungrounded definitional leaps; all 3 must pass torque thresholds to swing open.
+   LAYOUT: Symmetrical circular vault portal with 3 clean radial selector pins and digital torque readout.
+
+7. Tactical ATC Radar Bunker | Void Pine (#022C22), Tactical Panel (#064E3B), Phosphor Mint (#4ADE80), Altitude Tangerine (#FB923C)
+   GAME ENGINE: Gravity retaining wall holding back earthen pressure. Sluicing mud runoff against a wall missing a drainage gravel backing (falsification check) blows the masonry outward.
+   LAYOUT: Minimalist tactical radar sweep card beside clean drainage and soil relief toggles.
+
+8. High-Voltage Power Substation | Heavy Steel (#111827), Transformer Gray (#1F2937), High-Voltage Yellow (#EAB308), Arc Cobalt (#2563EB)
+   GAME ENGINE: Optical glass viewer with 3 rotatable prisms [Empirical Fact, Value Judgment, Causal Claim]. Rotating prisms across dense material illuminates hidden value assumptions in glowing spectra while filtering background noise.
+   LAYOUT: Sleek inline optical rail track over a focused spectral results card.
+
+9. Medieval Castle Siege Forge | Granite Slate (#1E293B), Stonework (#334155), Torchfire Crimson (#DC2626), Heraldic Gold (#FBBF24)
+   GAME ENGINE: Horizontal passage scanner cart emitting radar pulses. Smooth surface presentations reveal an underground sinkhole (missing mechanism/warrant) directly beneath a sweeping conclusion.
+   LAYOUT: Clean text card displaying surface passage with a synchronized slide-out GPR scan beneath.
+
+10. Planetary Atmospheric Descent | Midnight Indigo (#1E1B4B), Heat Tile Ceramic (#2E1065), Ablation Orange (#F97316), Kinetic Cyan (#38BDF8)
+    GAME ENGINE: Printed circuit board with trace lines linking inputs to outputs. Probing fallacious nodes shows 0.00V / Open Circuit; testing sound deductive inferences completes the circuit with a relay click.
+    LAYOUT: Clean circuit diagram canvas with intuitive click-to-probe test nodes.
+
+11. Arctic Expedition Research Rig | Frosted Obsidian (#0B132B), Permafrost Slate (#1C2541), Aurora Violet (#8B5CF6), Glacial Ice (#67E8F9)
+    GAME ENGINE: Chemical capillary strip separating arguments into distinct colored bands (Pathos/Noise Blue, Data Amber, Connecting Mechanism Violet). Measure band ratios on a graduated scale to verify empirical sufficiency.
+    LAYOUT: Elegant vertical chromatography capillary column with right-side metric summary chips.
+
+12. Nanotech Surgical Robotic Bay | Titanium Obsidian (#121113), Carbon Shell (#1F1E24), Laser Rose (#FB7185), Cellular Orchid (#C084FC)
+    GAME ENGINE: FLIR infrared camera lens monitoring a scenario under stress. High-friction overgeneralizations flare white-hot with thermal leaks, while sound deductions stay cool blue.
+    LAYOUT: High-contrast thermal sensor viewport with a single-toggle stress simulator.
+
+13. Quantum Superposition Particle Trap | Deep Cosmic Amethyst (#1D0B36), Quantum Core (#2D1254), Quantum Teal (#2DD4BF), Superposition Gold (#FDE047)
+    GAME ENGINE: Transparent blast chamber with an inverted assumption circuit. Flipping the toggle to [NEGATE] and firing the detonator shatters the claim into debris, verifying that the assumption was load-bearing.
+    LAYOUT: Central glass containment vessel with 2 clean polarization state buttons and a bottom detonator lever.
+
+14. Underworld Rail Transit Switcher | Tunnel Pitch (#121212), Track Bed (#1E1E1E), Signal Emerald (#22C55E), Brake Red (#EF4444)
+    GAME ENGINE: High-speed centrifuge spinning argument test tubes at 10,000 Gs. Speculative correlation claims separate and blow their seals, while controlled empirical grounds stay bonded.
+    LAYOUT: Symmetrical 4-chamber centrifuge rotor with an intuitive speed slider.
+
+15. Solar Flare Coronagraph Array | Eclipse Obsidian (#0C0A09), Sunspot Umbra (#1C1917), Corona Flare (#FB923C), Solar White-Yellow (#FEF08A)
+    GAME ENGINE: Force-pedestal mount inside a wind tunnel. Broad, unqualified claims generate severe turbulent buffeting and drag; qualified, bounded claims maintain smooth laminar airflow.
+    LAYOUT: Clean wind tunnel stream chamber with a clear digital drag-coefficient gauge.
+
+16. Cold War SIGINT Listening Post | Trenchcoat Olive-Charcoal (#141716), Receiver Chassis (#1E2321), Phosphor Green (#39FF14), Frequency Ice (#00F0FF)
+    GAME ENGINE: Motorized crane dipping an argument framework into green falsification acid. Unstated assumptions fizz, dissolve, and strip away, leaving only the verified factual steel skeleton.
+    LAYOUT: Clean acid dip-tank stage with a single hoist toggle and telemetry readouts.
+
+17. Heavy Foundry Blast Crane | Furnace Soot (#0F0F0F), Ingot Cradle (#1A1A1A), Molten Vermilion (#FF5722), Industrial Hazard (#FFD600)
+    GAME ENGINE: Liquid nitrogen cooling chamber. Rigid absolute assertions ("Always", "Never") freeze brittle and fracture under impact; flexible probabilistic claims retain structural elasticity.
+    LAYOUT: Cryogenic frost container with a clean impact-hammer trigger.
+
+18. High-Altitude Airship Flight Deck | Aero Navy (#060D1A), Gondola Brasswork (#0F1E36), Vapor Azure (#00E5FF), Chronometer Gold (#D4AF37)
+    GAME ENGINE: Pressurized transparent pipeline network. Routing fluid through a "False Dichotomy" valve blows a pipe joint; switching to a verified inductive bypass spins the flow turbine.
+    LAYOUT: Tidy 3-branch pipeline valve schematic leading to a central turbine dial.
+
+19. Rainforest Drone Canopy Station | Deep Earth (#0D140E), Moss Understory (#162218), Canopy Emerald (#00E676), Flora Magenta (#E040FB)
+    GAME ENGINE: Elevated gravity freight rail yard. Toggling track-switch levers routes rolling argument cars into classification tracks (Sound Ground, Unstated Warrant, Distraction); misrouted cars derail.
+    LAYOUT: Clean railway switch map with 3 dedicated siding tracks.
+
+20. Chrono-Rift Paradox Vault | Rift Black (#0D0814), Flux Chamber (#191024), Chrono Violet (#D946EF), Paradox Cyan (#00FFFF)
+    GAME ENGINE: Overhead pneumatic dispatch bank with 4 suction chutes. Inspecting argument canisters and loading them into matching diagnostic chutes triggers high-speed suction delivery.
+    LAYOUT: 4 vertical pneumatic glass tubes arranged above a clean loading tray.
+
+VISUAL POLISH & TACTILE 3D MECHANICAL CONTROLS:
+- Palette & Hierarchy: Use the variant palette strictly. Maintain a distinct surface contrast: darker page background, slightly elevated surface cards (1px border with 10% opacity), crisp high-contrast sans-serif typography.
+- Tactile 3D Buttons:
+  * 2px border, rounded corners (8px–10px), distinct gradient fill, and an offset 3D bottom drop-shadow (`box-shadow: 0 4px 0 var(--shadow-color);`).
+  * On `:hover`: bright border illumination and soft radiant glow (`box-shadow: 0 4px 14px var(--accent-glow), 0 4px 0 var(--shadow-color);`).
+  * On `:active`: physical click depression (`transform: translateY(2px); box-shadow: 0 2px 0 var(--shadow-color);`).
+  * Every button label must feature an active imperative verb (e.g., "⚡ ACTIVATE", "🔬 SCAN", "💣 DETONATE").
+- Grid Symmetry & Spacing:
+  * Maximum page container width: `920px` to `1040px` (centered) to prevent horizontal sprawl.
+  * Section margins: `32px` to `48px` gap between modules to keep the interface breathable.
+  * 4-item card sections MUST use a balanced 2x2 grid (`grid-template-columns: repeat(2, 1fr);`) on desktop, collapsing to 1 column on mobile. Never leave an orphan card.
+
+==================================================
+EXACT COMPONENT SEQUENCE (RENDER IN STRICT ORDER):
+==================================================
+
+1. HUD & THEMATIC TELEMETRY BAR:
+   - Clean, sticky header bar: Level Badge ("Level [LEVEL NUMBER]"), Subject, Target Age/Grade badge, Live XP Counter (+100 XP per test solved), and a smooth "Integrity / Calibration Gauge" (starts at 25%, animates to 100% as sections complete).
+   - Brief 2-sentence mission setup establishing the scenario.
+
+2. SECTION 01: COMPREHENSIVE TEXTBOOK FOUNDATION (FULL DOMAIN ARCHITECTURE):
+   - Exhaustive, deep-dive instructional module teaching the complete theoretical framework of the topic before any gameplay begins:
+     * Full structural model: Core Assertion/Outcome, Empirical Grounds/Inputs, Connecting Bridges/Mechanisms, Scope Qualifiers, and Boundary Conditions.
+     * The 4 Core Verification Criteria: Relevance, Sufficiency, Accuracy, and Independence.
+     * Epistemological Distinction: Structural Validity (formal internal consistency) vs. Soundness (Validity + Verified Factual Truth).
+     * Deductive Systems (Truth-Preserving Certainty) vs. Inductive Systems (Probabilistic Strength & Sample Robustness).
+     * Key Presumption Traps & Fallacies specific to this subject.
+   - Two (2) fully analyzed real-world worked examples with color-coded syntax tags, component decoders, and structural callouts.
+
+3. SECTION 02: THE 4 HAZARD / SUBTYPE PODS (BALANCED 2x2 GRID):
+   - In-depth, exhaustive written instruction on the 4 primary unstated assumptions, failure modes, or structural hazard archetypes in this domain, rendered in a clean, balanced 2x2 grid:
+     * Pod 1: "The Value Trap" (Presupposing unstated priorities, moral hierarchies, or preferences).
+     * Pod 2: "The Causal Leap" (Conflating correlation/sequence with direct causation; omitted variable bias).
+     * Pod 3: "The Definitional Shift" (Equivocation; sliding between colloquial and technical definitions mid-argument).
+     * Pod 4: "The Micro-Sample Mirage" (Generalizing from non-representative samples, voluntary cohorts, or survivor bias).
+   - Each pod includes formal identification rules, failure risks, and an illustrative domain text excerpt with an active diagnostic breakdown.
+
+4. SECTION 03: THE SIGNATURE GAME ENGINE (FOCUSED STREAMLINED WORKBENCH):
+   - Build out the FULL, working interactive hardware simulator assigned to this lesson's Variant Index (1–20).
+   - Follow the uncluttered DEDICATED WORKBENCH LAYOUT specified for this variant in the roster above.
+   - The user manipulates physical controls (e.g., balancing arms, turning valves, torquing bolts, or routing lines) to test an authentic domain problem.
+   - Immediate physical simulation feedback: CSS keyframe shakes/fractures on failure, illuminated neon stabilization on success, and a concise 2-sentence tactical diagnostic readout explaining the structural reason for the outcome.
+
+5. SECTION 04: "THE NEGATION DETONATOR" (ACTIVE HEURISTIC DESTRUCTION):
+   - Central Interactive Arena: A realistic scenario argument is under heavy synthetic load.
+   - The Target Implicit Warrant/Assumption is displayed on an illuminated detonator plate.
+   - Action Button: [💣 DETONATE NEGATION TEST].
+   - Interaction Physics: Clicking launches a destruction sequence—the card flashes warning colors, cracks appear across the container, and the claim collapses into fragments.
+   - Tactical debrief pop-up: "DETONATION SUCCESSFUL! By proving the opposite of the implicit assumption, the entire premise collapsed. The Negation Test proves this assumption was a fatal structural dependency."
+
+6. SECTION 05: "LIVE FIRE FORENSICS" (INTERACTIVE TEXT X-RAY):
+   - Dense, authentic high-stakes passage displayed on the central terminal.
+   - 3 Mode Selectors (like thermal vision channels):
+     * [🟢 SCAN FOUNDATION / GROUNDS]
+     * [🔵 SCAN CORE CLAIMS / OUTCOMES]
+     * [🟠 DETECT UNSTATED MECHANISMS / WARRANTS]
+   - Activating each mode highlights exact phrases on the console in real time and reveals brief inspector notes in an active sidebar.
+   - Interactive Challenge: "Find the Fatal Flaw". 3 clickable analytical hypotheses; clicking the right one triggers full structural clearance.
+
+7. SECTION 06: QUICK-REFERENCE PROCEDURAL PROTOCOL (TRANSFER & ERROR DETECTION TRIAGE):
+   - A high-contrast, scannable HUD matrix summarizing: Component, Failure Mode, and The 5-Step Elimination Protocol.
+   - The Universal 5-Step Deconstruction Protocol (Clean `<ol>` list):
+     1. <strong>Step 1: Isolate Core Claims & Scope Limits:</strong> Separate the central assertion from background context and mark certainty limiters.
+     2. <strong>Step 2: Audit Empirical Grounds for Sufficiency:</strong> Check for sample representation, bias, and source independence.
+     3. <strong>Step 3: Extract the Unstated Bridge / Mechanism:</strong> Formulate the implicit connecting principle linking inputs to outcomes.
+     4. <strong>Step 4: Execute the Negation & Counter-Model Test:</strong> Logically negate the bridge; if the outcome collapses, the component is load-bearing.
+     5. <strong>Step 5: Probe for Confounding Variables & Causal Reversal:</strong> Check for alternative explanations, bidirectional causality, and definitional shifts.
+
+8. CLEARANCE & TERMINATION:
+   - Integrity Gauge reaches 100% "STRUCTURE SECURED & VERIFIED".
+   - A prominent, centered 3D push-button labeled: "Finish Lesson".
+   - Styled with the theme's primary accent fill, distinct border, and a tactile bottom shadow (`box-shadow: 0 4px 0 ...`) with downward click feedback.
+   - Do NOT render any surrounding cards, progress bars, text teasers, or next-activity dispatches. The page must cleanly terminate with this single button.
+
+Wrap all JavaScript execution within document.addEventListener('DOMContentLoaded', () => { ... }) to ensure seamless, zero-defect execution.
